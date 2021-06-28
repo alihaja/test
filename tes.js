@@ -1268,7 +1268,7 @@
                 -1 !== o && e.popups.splice(o, 1),
                 e.saveToStorage(),
                 e.check(),
-                setInterval(e.check, 500)
+                setInterval(e.check, 900)
             }
         }));
         t.a = g
