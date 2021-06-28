@@ -426,7 +426,7 @@
                         speed: e
                     }), "*")
                 }
-                , 900))
+                , 1200))
             },
             setCurrentSpeed(e) {
                 self.currentSpeed = e
@@ -1268,7 +1268,7 @@
                 -1 !== o && e.popups.splice(o, 1),
                 e.saveToStorage(),
                 e.check(),
-                setInterval(e.check, 900)
+                setInterval(e.check, 500)
             }
         }));
         t.a = g
@@ -5858,6 +5858,182 @@
                         notification_login_bonus_text: "Inicie sess\xe3o pela primeira vez para obter um b\xf3nus extra de {{ bonus_btc }} <b>BTC</b>.",
                         invite_users: "Convide {{ users }} utilizadores",
                         notification_invite_bonus_title: "Convide 5 utilizadores ativos para a sua rede de minera\xe7\xe3o e ganhe {{ bonus_satoshi }} Satoshi",
+                        notification_invite_bonus_text: "Envie um convite a pelo menos 5 pessoas para receberem um b\xf3nus extra de {{ bonus_satoshi }} Satoshi na sua conta CryptoTab. Use os bot\xf5es abaixo para escolher uma plataforma para partilhar.",
+                        notifications: "Notifica\xe7\xe3o",
+                        notifications_empty: "Voc\xea n\xe3o tem novas notifica\xe7\xf5es",
+                        reject: "REJEITAR",
+                        get_bonus: "OBTER B\xd3NUS",
+                        ok_got_it: "OK, entendi",
+                        learn_more: "Saiba mais",
+                        join_us: "Adira",
+                        spring20_title: "O Recome\xe7o",
+                        spring20_body: "Neste momento, precisamos todos de um bom aban\xe3o. Uma renova\xe7\xe3o. Um recome\xe7o. \xc9 por esse motivo que o CryptoTab est\xe1 a lan\xe7ar um evento promocional em que todos podem participar. Este ano vamos distribuir mais de 7,000 $ aos que s\xe3o mais ativos a convidar novos utilizadores.",
+                        spring20_line_body: "Convida novos utilizadores, ganha 1000 d\xf3lares\u2014entra no concurso promocional do CryptoTab!",
+                        spring21_title: "Promo\xe7\xe3o Prepare-se para o Ver\xe3o 2021",
+                        spring21_body: "Promo\xe7\xe3o anual do CryptoTab. Convide novos usu\xe1rios \u2014 ganhe US$ 3.000. Participe agora e use sua chance para ganhar um dos pr\xeamios!",
+                        card_1_title: "Atualiza\xe7\xf5es de saldo",
+                        card_1_description: "N\xe3o v\xea altera\xe7\xf5es no saldo apesar da minera\xe7\xe3o estar a acontecer na sua plenitude? Basta aguardar um pouco, o saldo e os dados de refer\xeancia s\xe3o atualizados v\xe1rias vezes por hora.",
+                        card_2_title: "Importar favoritos",
+                        card_2_description: "Fazem-lhe falta os favoritos do seu navegador anterior? Pode importar favoritos do Firefox, do Chrome, do Safari e de outros navegadores, clique no cart\xe3o para ver um guia r\xe1pido.",
+                        card_3_title: "Ajustar a velocidade de minera\xe7\xe3o",
+                        card_3_description: "Para iniciar a minera\xe7\xe3o, arraste o controle deslizante de velocidade para a direita. Ajuste a velocidade de minera\xe7\xe3o para obter o equil\xedbrio ideal.",
+                        card_4_title: "Minera\xe7\xe3o em dispositivos m\xf3veis",
+                        card_4_description: "Tem um smartphone ou tablet? Experimente minerar em qualquer lugar com o CryptoTab Mobile para iOS e Android.",
+                        card_5_title: "Partilhe o seu link pessoal",
+                        card_5_description: "Partilhe posts para atrair novos seguidores nas redes socias e aumentar a sua rede de minera\xe7\xe3o.",
+                        card_6_title: "Use o CryptoTab diariamente",
+                        card_6_description: "Para manter a minera\xe7\xe3o e o rendimento a fluir - use o CryptoTab Browser como o seu navegador di\xe1rio todos os dias.",
+                        card_7_title: "Rede de Minera\xe7\xe3o",
+                        card_7_description: "A rede de minera\xe7\xe3o \xe9 crucial para obter mais do CryptoTab. Expanda e desenvolva-a para maximizar o seu rendimento.",
+                        card_8_title: "Levantamento de fundos",
+                        card_8_description: "Solicite pagamentos a qualquer momento e monitorize-os com a ajuda de um novo sistema de estado.",
+                        cloud_boost: "Cloud.Boost",
+                        cloud_boost_hint: "Multiplique sua velocidade de minera\xe7\xe3o at\xe9 X15 com Cloud.Boost",
+                        cloud_boost_ready: "Cloud.Boost Pronto",
+                        Withdrawal_Created: "Criado",
+                        Withdrawal_Confirmed: "Confirmado",
+                        Withdrawal_Approved: "Aprovado",
+                        Withdrawal_Sent: "Enviado",
+                        Withdrawal_Processed: "Processado",
+                        Withdrawal_Reviewed: "Reviewed",
+                        Withdrawal_Awaiting_confirmation: "Aguarda confirma\xe7\xe3o",
+                        cancel_withdrawal: "Cancelar levantamento",
+                        cancel_withdrawal_text: "Se desejar cancelar este levantamento de {{amount}} BTC, confirme clicando no bot\xe3o abaixo.",
+                        ready: "Pronto",
+                        unavailable: "Indispon\xedvel",
+                        time_left: "Tempo restante",
+                        time_hours: "h",
+                        time_min: "min",
+                        time_sec: "seg",
+                        cloud_available_title: "Experimente a Cloud.Boost",
+                        cloud_available_body: "A funcionalidade Cloud.Boost est\xe1 \xe0 sua disposi\xe7\xe3o. Ative-a para uma experi\xeancia de minera\xe7\xe3o ultrarr\xe1pida!",
+                        cloud_not_available_title: "Acelerador da nuvem est\xe1 indispon\xedvel",
+                        cloud_not_available_body: "O Acelerador da Nuvem permite que utilize poderosos servidores CryptoTab para minera\xe7\xe3o. Para obter um impulso \u2013 basta navegar na web usando a barra de endere\xe7o.",
+                        cloud_activate_title: "Ativar a Cloud.Boost",
+                        cloud_activate_body: "A Cloud.Boost est\xe1 pronta para entrar em a\xe7\xe3o! Ative-a para minerar a alta velocidade utilizando servidores poderosos na nuvem.",
+                        cloud_enabled_title: "Cloud.Boost ativada",
+                        cloud_enabled_body: "Tempo restante \u2013 {{hours}} horas {{minutes}} minutos. A Cloud.Boost est\xe1 ativa e a velocidade de minera\xe7\xe3o foi aumentada.",
+                        top_notification_invite_bonus: "<b>Viva!</b> Tem 5 pessoas na sua rede de minera\xe7\xe3o! O b\xf3nus de {{ bonus_btc }} BTC \xe9 seu!",
+                        top_notification_welcome_bonus: "<b>Viva!</b> O b\xf3nus de {{ bonus_btc }} BTC \xe9 seu!",
+                        top_notification_login_bonus: "<b>Viva!</b> Agora est\xe1 conectado. O b\xf3nus de {{ bonus_btc }} BTC \xe9 seu!",
+                        top_notification_repost_bonus: "<b>Viva!</b> Voc\xea iniciou sua atividade de rede de minera\xe7\xe3o! O b\xf3nus de {{ bonus_btc }} BTC \xe9 seu!",
+                        starting_up: "A come\xe7ar...",
+                        adjusting: "Ajustando...",
+                        shutting_down: "A desligar...",
+                        please_wait: "Por favor, espere. Pode demorar um pouco.",
+                        account: "Conta",
+                        view_details: "Visualizar detalhes",
+                        overview: "Vis\xe3o geral",
+                        manage_subscriptions: "Gerenciar assinaturas",
+                        no_subscriptions: "Nenhuma assinatura ativa",
+                        cryptotab_mobile: "<b>Consiga mais Bitcoins!</b> \u2014 Use o navegador CryptoTab diariamente nos seus dispositivos iOS ou Android. A funcionalidade de minera\xe7\xe3o est\xe1 sempre dispon\xedvel!",
+                        spring20_results_title: '"Fresh Start"\u2014hora de resumir',
+                        spring20_results_body: '"Fresh Start" terminou. Agradecemos a todos os participantes por serem muito ativos ao convidar novos usu\xe1rios! Confira a lista de vencedores e detalhes da campanha!',
+                        casino_details: "Detalhes",
+                        casino_special: "PARCERIA ESPECIAL",
+                        casino_title: "Confie na sua sorte e receba um b\xf3nus BTC duplo",
+                        casino_text: "Carregue o seu saldo do casino com BTC e receba um b\xf3nus de at\xe9 100% do valor do dep\xf3sito.",
+                        casino_get_bonus: "OBTER B\xd3NUS",
+                        casino_balance: "Balan\xe7o do Casino:",
+                        casino_promo: "PROMO",
+                        casino_button: "CARREGAR CONTA DO CASINO"
+                    }
+                }
+            }
+        }),
+        _.a.render(s.a.createElement(rr, null), document.getElementById("root"))
+    },
+    68: function(e, t, a) {
+        e.exports = {
+            SidebarCard: "SidebarCard_SidebarCard__1_qjQ",
+            SidebarCard__image: "SidebarCard_SidebarCard__image__39-XX",
+            SidebarCard__title: "SidebarCard_SidebarCard__title__2QVz8",
+            SidebarCard__body: "SidebarCard_SidebarCard__body__UULRR",
+            SidebarCard__buttons: "SidebarCard_SidebarCard__buttons__2Rhw4",
+            SidebarCard_dark: "SidebarCard_SidebarCard_dark__26bPK SidebarCard_SidebarCard__1_qjQ"
+        }
+    },
+    69: function(e, t, a) {
+        e.exports = {
+            ShareGenerator__button: "ShareGeneratorButton_ShareGenerator__button__3VcDN",
+            ShareGenerator__button__hint: "ShareGeneratorButton_ShareGenerator__button__hint__2jdt7",
+            ShareGenerator__dropdown: "ShareGeneratorButton_ShareGenerator__dropdown__2ZSbu",
+            ShareGenerator__container: "ShareGeneratorButton_ShareGenerator__container__17h0H",
+            ShareGenerator__text: "ShareGeneratorButton_ShareGenerator__text__3FuOT",
+            ShareGenerator__social: "ShareGeneratorButton_ShareGenerator__social__1pFlt"
+        }
+    },
+    8: function(e, t, a) {
+        e.exports = {
+            Overlay: "Tutorial_Overlay__2Ljdn",
+            Overlay__header: "Tutorial_Overlay__header__YR2-l",
+            Tip: "Tutorial_Tip__3MWgX",
+            Tip__img: "Tutorial_Tip__img__2tlze",
+            Tip__body: "Tutorial_Tip__body__2L1Ka",
+            Tip__footer: "Tutorial_Tip__footer__1XMog",
+            Tip__num: "Tutorial_Tip__num__2WrCb",
+            Tip__btn_black: "Tutorial_Tip__btn_black__3LejG",
+            Tip__btn_blue: "Tutorial_Tip__btn_blue__2Sw_X",
+            Tip_1: "Tutorial_Tip_1__15iuJ Tutorial_Tip__3MWgX",
+            Tip_2: "Tutorial_Tip_2__1A7Eo Tutorial_Tip__3MWgX",
+            Tip_3: "Tutorial_Tip_3__1Ijms Tutorial_Tip__3MWgX",
+            Tip_4: "Tutorial_Tip_4__1484F Tutorial_Tip__3MWgX",
+            Tip_4_with_header_notification: "Tutorial_Tip_4_with_header_notification__mdBXZ Tutorial_Tip_4__1484F Tutorial_Tip__3MWgX",
+            Tip_5: "Tutorial_Tip_5__3NpLc Tutorial_Tip__3MWgX",
+            tip: "Tutorial_tip__1nWYN",
+            btn: "Tutorial_btn__1r6sS",
+            Tip_6: "Tutorial_Tip_6__3-U8g Tutorial_Tip__3MWgX",
+            Tip_10: "Tutorial_Tip_10__3SyQR Tutorial_Tip__3MWgX"
+        }
+    },
+    88: function(e, t, a) {
+        e.exports = {
+            SpeedSection__top: "SpeedSection_SpeedSection__top__2rS_3",
+            SpeedSection__tip: "SpeedSection_SpeedSection__tip__1lKQT",
+            SpeedSection__title: "SpeedSection_SpeedSection__title__lRxDK",
+            SpeedSection_dark: "SpeedSection_SpeedSection_dark__3vBIl"
+        }
+    },
+    89: function(e, t, a) {
+        e.exports = {
+            ProfileSection: "ProfileSection_ProfileSection__i6NYM",
+            ProfileSection__title: "ProfileSection_ProfileSection__title__33auM",
+            ProfileSection__login: "ProfileSection_ProfileSection__login__1NHqJ",
+            "ProfileSection__login_google-oauth2": "ProfileSection_ProfileSection__login_google-oauth2__22gjb ProfileSection_ProfileSection__login__1NHqJ",
+            ProfileSection__login_facebook: "ProfileSection_ProfileSection__login_facebook__29xzu ProfileSection_ProfileSection__login__1NHqJ",
+            "ProfileSection__login_vk-oauth2": "ProfileSection_ProfileSection__login_vk-oauth2__2NJ8v ProfileSection_ProfileSection__login__1NHqJ",
+            ProfileSection__login_twitter: "ProfileSection_ProfileSection__login_twitter__2YYz4 ProfileSection_ProfileSection__login__1NHqJ",
+            ProfileSection__menu: "ProfileSection_ProfileSection__menu__aE874",
+            ProfileSection_dark: "ProfileSection_ProfileSection_dark__SN_xp ProfileSection_ProfileSection__i6NYM"
+        }
+    },
+    90: function(e, t, a) {
+        e.exports = {
+            CloudBonus: "CloudBonus_CloudBonus__12KGM",
+            CloudBonus__label: "CloudBonus_CloudBonus__label__1sYmp",
+            CloudBonus__hint: "CloudBonus_CloudBonus__hint__1WJwR",
+            CloudBonus__hint__close: "CloudBonus_CloudBonus__hint__close__2rAmk",
+            CloudBonus__switcher: "CloudBonus_CloudBonus__switcher__6rJW_",
+            CloudBonus_dark: "CloudBonus_CloudBonus_dark__1cjhn CloudBonus_CloudBonus__12KGM",
+            CloudBonus_not_available: "CloudBonus_CloudBonus_not_available__R4RqJ CloudBonus_CloudBonus__12KGM",
+            CloudBonus_activate: "CloudBonus_CloudBonus_activate__1LdEI CloudBonus_CloudBonus__12KGM",
+            CloudBonus_enabled: "CloudBonus_CloudBonus_enabled__1Vl97 CloudBonus_CloudBonus__12KGM",
+            CloudBonus_dark_not_available: "CloudBonus_CloudBonus_dark_not_available__328Eb CloudBonus_CloudBonus_dark__1cjhn CloudBonus_CloudBonus__12KGM",
+            CloudBonus_dark_activate: "CloudBonus_CloudBonus_dark_activate__3s6yc CloudBonus_CloudBonus_dark__1cjhn CloudBonus_CloudBonus__12KGM",
+            CloudBonus_dark_enabled: "CloudBonus_CloudBonus_dark_enabled__2jdqC CloudBonus_CloudBonus_dark__1cjhn CloudBonus_CloudBonus__12KGM CloudBonus_CloudBonus_dark__1cjhn CloudBonus_CloudBonus__12KGM"
+        }
+    },
+    91: function(e, t, a) {
+        e.exports = {
+            Tooltip: "CloudTip_Tooltip__35kXt",
+            Tooltip__icon: "CloudTip_Tooltip__icon__2Vt7s",
+            Tooltip__icon_blue: "CloudTip_Tooltip__icon_blue__2rnGQ CloudTip_Tooltip__icon__2Vt7s",
+            Tooltip__title: "CloudTip_Tooltip__title__3_zW2",
+            Tooltip__body: "CloudTip_Tooltip__body__FmqLZ"
+        }
+    }
+}, [[376, 1, 2]]]);
+bonus_satoshi }} Satoshi",
                         notification_invite_bonus_text: "Envie um convite a pelo menos 5 pessoas para receberem um b\xf3nus extra de {{ bonus_satoshi }} Satoshi na sua conta CryptoTab. Use os bot\xf5es abaixo para escolher uma plataforma para partilhar.",
                         notifications: "Notifica\xe7\xe3o",
                         notifications_empty: "Voc\xea n\xe3o tem novas notifica\xe7\xf5es",
